@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kumpulan CV Mahasiswa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      color: #00796b;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: #333;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+
+    .cv-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .cv-card {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      width: 220px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .cv-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+    }
+
+    .cv-card h2 {
+      margin-bottom: 1rem;
+      color: #00796b;
+    }
+
+    .cv-card a {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #00796b;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      font-weight: 500;
+      transition: background-color 0.2s;
+    }
+
+    .cv-card a:hover {
+      background-color: #004d40;
+    }
+
+    @media (max-width: 600px) {
+      .cv-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Pilih CV yang ingin Anda lihat:</h1>
+
+  <div class="cv-container">
+    <div class="cv-card">
+      <img src="https://i.pinimg.com/736x/c2/f7/9a/c2f79a13c23fe220552492803d8da7a3.jpg" alt="" height="150" width="150">
+      <h2>CV Saskia</h2>
+      <a href="cv_saskia/cv_saskia.html">Lihat Profil</a>
+    </div>
+    <div class="cv-card">
+      <img src="https://i.pinimg.com/736x/a6/31/a1/a631a125cc6dc5a5569db12c1623dfd7.jpg" alt="" height="150" width="150">
+      <h2>CV Mirawati</h2>
+      <a href="cv_mirawati/CV.html">Lihat Profil</a>
+    </div>
+  </div>
+
+</body>
+</html>
